@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر IPTV الاحترافي</title>
+    <style>
+        body {
+            background-color: #0a1f2f;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: linear-gradient(135deg, #064e3b, #0d9488);
+            padding: 40px 20px;
+            border-radius: 20px;
+            text-align: center;
+            width: 90%; 
+            max-width: 550px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+            margin: 20px;
+        }
+
+        h1 {
+            color: #a5f3fc;
+            font-size: clamp(1.5rem, 5vw, 2.2rem);
+            margin-bottom: 25px;
+        }
+
+        .image-box {
+            background-color: #0a1f2f;
+            border-radius: 15px;
+            padding: 5px;
+            margin: 0 auto 25px auto;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        img {
+            width: 100%;
+            max-width: 480px;
+            height: auto;
+            border-radius: 10px;
+            display: block;
+            object-fit: contain;
+        }
+
+        .offer-tag {
+            background-color: #10b981;
+            padding: 10px 20px;
+            border-radius: 50px;
+            display: inline-block;
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 16px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .price-tag {
+            font-size: 32px;
+            color: #a5f3fc;
+            margin: 10px 0 30px 0;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .whatsapp-btn {
+            background-color: #22c55e;
+            color: white;
+            font-size: 20px;
+            padding: 15px 45px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            font-weight: bold;
+            box-shadow: 0 8px 20px rgba(34, 197, 94, 0.3);
+        }
+
+        .whatsapp-btn:hover {
+            background-color: #16a34a;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(34, 197, 94, 0.5);
+        }
+
+        @media (max-width: 480px) {
+            .container { padding: 30px 15px; }
+            .whatsapp-btn { width: 80%; padding: 12px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>اشتراك IPTV متميز</h1>
+
+    <div class="image-box">
+        <!-- الصورة الجديدة: هاتف + حاسوب -->
+        <img src="https://i.imgur.com/N9B4XyF.png" alt="IPTV على الهاتف والحاسوب">
+    </div>
+
+    <div class="offer-tag">🔥 عرض خاص هذا الأسبوع!</div>
+
+    <p class="price-tag">100 درهم / شهر</p>
+
+    <!-- زر واتساب -->
+    <a href="https://wa.me/212666581222" target="_blank">
+        <button class="whatsapp-btn">اشتري الآن</button>
+    </a>
+</div>
+
+</body>
+</html>
